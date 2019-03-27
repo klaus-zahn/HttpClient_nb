@@ -7,8 +7,7 @@ OBJDIRP = linux-obj
 PROGRAM = HttpGrabberExample
 LDFLAGS =
 #LIBS = -lpthread
-LIBS = -lpthread -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_stereo \
-       -lopencv_plot
+LIBS =
 INCS = -I.
 
 LBITS := $(shell getconf LONG_BIT)

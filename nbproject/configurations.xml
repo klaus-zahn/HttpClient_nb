@@ -50,18 +50,6 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
-        <linkerTool>
-          <linkerLibItems>
-            <linkerLibLibItem>opencv_calib3d</linkerLibLibItem>
-            <linkerLibLibItem>opencv_core</linkerLibLibItem>
-            <linkerLibLibItem>opencv_features2d</linkerLibLibItem>
-            <linkerLibLibItem>opencv_flann</linkerLibLibItem>
-            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
-            <linkerLibLibItem>opencv_imgcodecs</linkerLibLibItem>
-            <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
-            <linkerLibLibItem>opencv_plot</linkerLibLibItem>
-          </linkerLibItems>
-        </linkerTool>
       </compileType>
       <item path="HttpDefs.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -108,9 +96,6 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
-          <incDir>
-            <pElem>/usr/include/opencv2</pElem>
-          </incDir>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
@@ -118,18 +103,6 @@
         <asmTool>
           <developmentMode>5</developmentMode>
         </asmTool>
-        <linkerTool>
-          <linkerLibItems>
-            <linkerLibLibItem>opencv_calib3d</linkerLibLibItem>
-            <linkerLibLibItem>opencv_core</linkerLibLibItem>
-            <linkerLibLibItem>opencv_features2d</linkerLibLibItem>
-            <linkerLibLibItem>opencv_flann</linkerLibLibItem>
-            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
-            <linkerLibLibItem>opencv_imgcodecs</linkerLibLibItem>
-            <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
-            <linkerLibLibItem>opencv_plot</linkerLibLibItem>
-          </linkerLibItems>
-        </linkerTool>
       </compileType>
       <item path="HttpDefs.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -13,8 +13,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
           </DebugOptions>
@@ -27,12 +25,12 @@
       <runprofile version="9">
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -v 1</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -n 100 -s 0</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -n 20 -s 0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" -h 192.168.60.121 -n 20 -s 0</runcommand>
+        <runcommand>"${OUTPUT_PATH}" -h 192.168.60.121</runcommand>
         <rundir></rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
@@ -64,12 +62,12 @@
       <runprofile version="9">
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -v 1</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -n 100 -s 0</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121 -n 20 -s 0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 192.168.60.121</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" -h 192.168.60.121 -n 20 -s 0</runcommand>
+        <runcommand>"${OUTPUT_PATH}" -h 192.168.60.121</runcommand>
         <rundir></rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>

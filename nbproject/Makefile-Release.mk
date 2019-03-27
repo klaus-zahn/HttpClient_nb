@@ -59,7 +59,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_plot
+LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -72,42 +72,42 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/httpgrabber: ${OBJECTFILES}
 ${OBJECTDIR}/HttpDefs.o: HttpDefs.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpDefs.o HttpDefs.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpDefs.o HttpDefs.cpp
 
 ${OBJECTDIR}/HttpGrabber.o: HttpGrabber.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpGrabber.o HttpGrabber.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpGrabber.o HttpGrabber.cpp
 
 ${OBJECTDIR}/HttpGrabberExample.o: HttpGrabberExample.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpGrabberExample.o HttpGrabberExample.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpGrabberExample.o HttpGrabberExample.cpp
 
 ${OBJECTDIR}/HttpMsg.o: HttpMsg.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpMsg.o HttpMsg.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/HttpMsg.o HttpMsg.cpp
 
 ${OBJECTDIR}/cencode.o: cencode.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cencode.o cencode.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cencode.o cencode.cpp
 
 ${OBJECTDIR}/compat.o: compat.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/compat.o compat.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/compat.o compat.cpp
 
 ${OBJECTDIR}/log.o: log.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/log.o log.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/log.o log.cpp
 
 ${OBJECTDIR}/wingetopt.o: wingetopt.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -I/usr/include/opencv2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/wingetopt.o wingetopt.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/wingetopt.o wingetopt.cpp
 
 # Subprojects
 .build-subprojects:

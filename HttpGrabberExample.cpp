@@ -10,11 +10,6 @@
 #include "log.h"
 #include "wingetopt.h"
 
-//required for opencv
-#include "opencv2/calib3d/calib3d.hpp"
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
-
 //definitions for the host and the url
 std::string host = "";
 unsigned short port = 80;
@@ -133,17 +128,6 @@ int main(int argc, char* argv[])
 			else {
 				log_info("skipping to save file %s", fileName);
 			}
-                        
-                        std::vector<unsigned char> jpgbytes(msgBuf, msgBuf+msgSize);
-                        cv::Mat img = cv::imdecode(jpgbytes, CV_LOAD_IMAGE_COLOR);
-
-                        cv::imshow("disp", img);
-
-                        char c = (char) cv::waitKey(1);
-                        if (c == 27 || c == 'q' || c == 'Q')
-                            break;
-
-                        
 			delete[] msgBuf;
 			msgBuf = NULL;
 			msgSize = 0;
