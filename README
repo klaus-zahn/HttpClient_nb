@@ -1,0 +1,5 @@
+Important:
+
+* the file makefile is for native use from the command line
+
+* the file Makefile is for use out of netbeans
