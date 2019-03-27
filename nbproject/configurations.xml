@@ -60,6 +60,7 @@
             <linkerLibLibItem>opencv_imgcodecs</linkerLibLibItem>
             <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
             <linkerLibLibItem>opencv_plot</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stereo</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
@@ -128,6 +129,7 @@
             <linkerLibLibItem>opencv_imgcodecs</linkerLibLibItem>
             <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
             <linkerLibLibItem>opencv_plot</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stereo</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
